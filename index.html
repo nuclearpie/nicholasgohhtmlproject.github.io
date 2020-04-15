@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<head>
+<title>Welcome to NSRCC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: White;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
+
+div.scrollmenu2 {
+  background-color: SlateBlue;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu2 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: px;
+  text-decoration: none;
+}
+
+div.scrollmenu2 a:hover {
+  background-color: darkblue;
+}
+
+
+
+body {
+Background-color: SlateBlue;
+background-image: url('home.png');
+Background-repeat: no-repeat;
+background-size: 100% 300px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  height: 550px; 
+  background: grey;
+  padding: 20px;
+}
+
+/* Style the image inside the menu(still need to insert code below */
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 550px; 
+}
+
+header {
+  background-color: SlateBlue;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+<img src="logo.png" alt="logo" width="150" height="100">
+
+<h1 style="color:cyan; text-align:center;">
+Come on down to
+<br>
+National Service Resort & Country Club(Changi)
+</h1>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Things To Do</button>
+  <div class="dropdown-content">
+    <a href="diningoptions.html">Dine</a>
+    <a href="sportingoptions.html">Sports</a>
+    <a href="recreationaloptions.html">Recreation</a>
+  </div>
+</div>
+
+<button class="button">
+<a href="gettingthere.html">Getting There</a>
+</button>
+
+<button class="button">
+<a href="accommodation.html">Accommodation</a>
+</button>
+
+<button class="button">
+<a href="index.html">Home</a>
+</button>
+
+
+
+
+</head>
+
+<body>
+
+
+<header>
+<h3 style="color:violet; text-align:center;">
+See something you like?
+<br>
+Click on the image to find out more!
+<h3>
+
+<div class="scrollmenu2">
+<a href="squash.html">
+  <img src="scourt.png" alt="Squash" style="width:300px;height:300px;border:0">
+</a>
+<a href="jackpot.html">
+  <img src="ijackpot.png" alt="jackpot" style="width:300px;height:300px;border:0">
+</a>
+<a href="swimming.html">
+  <img src="poolppl.png" alt="Squash" style="width:300px;height:300px;border:0">
+</a>
+<a href="bowling.html">
+  <img src="bowlinggallery.png" alt="bowling" style="width:300px;height:300px;border:0">
+</a>
+<a href="bball.html">
+  <img src="bkids.png" alt="Squash" style="width:300px;height:300px;border:0">
+</a>
+<a href="tennis.html">
+  <img src="tcourt.png" alt="Tennis" style="width:300px;height:300px;border:0">
+</a>
+<a href="gym.html">
+  <img src="gym.png" alt="Gym" style="width:300px;height:300px;border:0">
+</a>
+<a href="playground.html">
+  <img src="playground.png" alt="Playground" style="width:300px;height:300px;border:0">
+</a>
+<a href="billiards.html">
+  <img src="billiardroom.png" alt="Billiards" style="width:300px;height:300px;border:0">
+</a>
+</div>
+</header>
+
+<section>
+
+  <nav>
+<h2 style="text-align:center;">What's the resort life like?</h2>
+<iframe width=100% height=315px src="https://www.youtube.com/embed/ZiEYb5bM454?controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+</nav>
+  
+
+ <article>
+<h2 style="text-align:center;"> Click here to visit the official NSRCC Instagram page!<h2>
+<a href="https://www.instagram.com/nsrcc/?hl=en">
+  <img src="instagram.png" alt="Instagram page" style="width:100%;height:320px;border:0">
+</a>
+
+ </article>
+</section>
+
+</html>

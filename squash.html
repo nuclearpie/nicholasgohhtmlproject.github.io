@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+<title>Squash</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: White;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
+
+
+div.scrollmenu {
+  background-color: #f1f1f1;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+body {
+background-color: olive;
+background-image: url('sports.png');
+Background-repeat: no-repeat;
+background-size: 100% 350px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 350px; /* only for demonstration, should be removed */
+  background: grey;
+  padding: 20px;
+}
+
+/* Style the image inside the menu(still need to insert code below */
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 350px; 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+<h2 style="color:purple;">Sports Facilities</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="dropdown">
+  <button class="dropbtn">Things To Do</button>
+  <div class="dropdown-content">
+    <a href="diningoptions.html">Dine</a>
+    <a href="sportingoptions.html">Sports</a>
+    <a href="recreationaloptions.html">Recreation</a>
+  </div>
+</div>
+
+<button class="button">
+<a href="gettingthere.html">Getting There</a>
+</button>
+
+<button class="button">
+<a href="accommodation.html">Accommodation</a>
+</button>
+
+<button class="button">
+<a href="index.html">Home</a>
+</button>
+
+
+
+<body>
+
+
+
+<section>
+  <nav>
+<h2 style="text-align:center;">Squash Courts</h2>
+<p style="text-align:center;">
+<img src="scourt.png" alt="Squash court" width="200" height="200">
+</p>
+  </nav>
+  
+  <article>
+    <p>Come indulge in an intense game of squash with a friend or two. It serves as great way to relieve stress while providing an even greater workout at the same time!</p>
+
+  </article>
+</section>
+
+<section>
+
+  <nav>
+<h2 style="text-align:center;">Operating Hours</h2>
+<p>
+12.00pm to 11.00pm (Mon to Thu)<br>
+Last booking at 10.00pm<br>
+12.00pm to 2.00am (Fri, Sat & eve of public holidays)<br>
+Last booking at 1.00am<br>
+10.00am to 11.00pm (Sun, public holidays & school holidays)<br>
+Last booking at 10.00pm
+</p>
+  </nav>
+  
+<!-- NSRCC doesn't seem to have many photos of their squash court, unfortunately. -->
+  <article>
+<h2> Gallery</h2>
+<div class="scrollmenu">
+<img src="splayer.png" alt="Squash player" width="200" height="200">
+<img src="squashers.png" alt="Squash players" width="200" height="200">
+
+</div>
+ </article>
+</section
+
+</body>
+</html>
